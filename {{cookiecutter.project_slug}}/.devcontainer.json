@@ -5,5 +5,33 @@
     "build": {
         // Path is relataive to the devcontainer.json file.
         "dockerfile": "Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "njpwerner.autodocstring",
+                "bungcip.better-toml",
+                "ms-python.flake8",
+                "eamodio.gitlens",
+                "heaths.vscode-guid",
+                "Asuka.insertnumbers",
+                "VisualStudioExptTeam.vscodeintellicode",
+                "VisualStudioExptTeam.intellicode-api-usage-examples",
+                "streetsidesoftware.code-spell-checker",
+                "ms-python.isort",
+                "eriklynd.json-tools",
+                "yzhang.markdown-all-in-one",
+                "DavidAnson.vscode-markdownlint",
+                "ms-python.vscode-pylance",
+                "ms-python.python",
+                "dbankier.vscode-quick-select",
+                "sourcery.sourcery",
+                "hbenl.vscode-test-explorer",
+                "Gruntfuggly.todo-tree",
+                "bibhasdn.unique-lines",
+                "DotJoshJohnson.xml",
+                "redhat.vscode-yaml"
+            ]
+        }
     }
 }
